@@ -1,0 +1,54 @@
+
+
+/*-------Reset-------*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: #f7f7f7;
+  
+
+
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  border: none;
+}
+
+/* ------- App -------*/
+
+.app {
+  background-image: url(https://cdn.dribbble.com/users/470545/screenshots/3249842/sunset-on-a-beach.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
